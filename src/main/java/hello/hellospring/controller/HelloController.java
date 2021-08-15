@@ -50,3 +50,6 @@ public class HelloController {
 // helloController -> viewResolver (templates/hello.html)
 // helloController -> viewResolver (templates/hello-template.html)
 // helloController -> @ResponseBody -> HttpMessageConverter
+
+// 도메인(컨트롤러 -> 서비스 -> 리포지토리) -> DB
+// 서비스에 핵심 비지니스 로직 구현
